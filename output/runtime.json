@@ -1,0 +1,12 @@
+{
+  "executed_at_utc": "2026-10-21T07:00:22.021272+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "logical_cpus": 16,
+  "ram_gib": 23.37,
+  "pandas": "2.2.3",
+  "numpy": "1.26.4",
+  "pyarrow": "18.1.0",
+  "source_sha256": "b5b36503de8b3607d44e39af9beca754d81739767f5f6979fb5bbab86758147f"
+}

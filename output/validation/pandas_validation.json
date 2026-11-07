@@ -1,0 +1,14 @@
+{
+  "rows_100000": true,
+  "at_least_10_columns": true,
+  "unique_ids": true,
+  "no_nulls": true,
+  "valid_dates": true,
+  "nonempty_dimensions": true,
+  "finite_numbers": true,
+  "positive_integer_quantity": true,
+  "nonnegative_price": true,
+  "discount_range": true,
+  "gross_formula": true,
+  "net_formula": true
+}

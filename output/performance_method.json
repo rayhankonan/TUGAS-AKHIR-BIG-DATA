@@ -1,0 +1,24 @@
+{
+  "repeats": 3,
+  "sizes": [
+    10000,
+    100000,
+    1000000
+  ],
+  "spark_version": "3.5.3",
+  "memory_note": "Spark driver 2 GiB; 2 local worker threads; shared Windows machine; filesystem cache not flushed.",
+  "scaling": "10k first rows; 100k original; 1m repeated source rows with reassigned unique IDs. Scaling data is not new independent observations.",
+  "protocol": "One warmup action excluded. Timed CSV read, date/net transformation plus month-branch-category aggregation, driver collection, Arrow Parquet write, Pandas reread. Spark cache/count/collect forces computation. Sequential runs; median of 3. Same storage writer for both engines. Small-data local lab, not cluster throughput.",
+  "runtime": {
+    "executed_at_utc": "2026-10-21T07:00:01.350418+00:00",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "logical_cpus": 16,
+    "ram_gib": 23.37,
+    "pandas": "2.2.3",
+    "numpy": "1.26.4",
+    "pyarrow": "18.1.0",
+    "source_sha256": "b5b36503de8b3607d44e39af9beca754d81739767f5f6979fb5bbab86758147f"
+  }
+}

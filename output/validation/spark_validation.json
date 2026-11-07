@@ -1,0 +1,19 @@
+{
+  "source_rows": 100000,
+  "accepted_rows": 100000,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "reference_monthly_match": true,
+  "sql_profile_match": true,
+  "parquet_exact_roundtrip": true,
+  "spark_parquet_rows": 100000,
+  "parquet_write_seconds": 0.6097201999946265,
+  "spark_version": "3.5.3",
+  "transformations": [
+    "Cast dates and numeric types",
+    "Normalize dimension whitespace",
+    "Calculate gross/net sales and discount",
+    "Derive month and basket band",
+    "Quarantine invalid and duplicate records"
+  ]
+}

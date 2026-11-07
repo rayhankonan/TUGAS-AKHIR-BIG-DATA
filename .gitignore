@@ -1,0 +1,10 @@
+.env
+.venv/
+.runtime/
+work/
+__pycache__/
+.ipynb_checkpoints/
+
+.env.*
+!.env.example
+*.log

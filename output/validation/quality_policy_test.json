@@ -1,0 +1,8 @@
+{
+  "input_rows": 9,
+  "accepted_rows": 1,
+  "invalid_rows": 6,
+  "duplicate_rows": 2,
+  "whitespace_normalization": true,
+  "one_rupiah_error_rejected": true
+}

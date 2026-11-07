@@ -1,0 +1,17 @@
+{
+  "server_version": "PostgreSQL 15.19, compiled by Visual C++ build 1944, 64-bit",
+  "rows": 100000,
+  "units_sold": 551507,
+  "net_sales": "54856691900.00",
+  "formula_mismatch": 0,
+  "exact_source_fields_match": true,
+  "aggregate_matches": {
+    "month": true,
+    "branch": true,
+    "category": true,
+    "payment_method": true
+  },
+  "load_and_validation_seconds": 2.247693799989065,
+  "audit_id": 2,
+  "status": "SUCCESS"
+}

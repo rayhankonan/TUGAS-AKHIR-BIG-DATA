@@ -1,0 +1,13 @@
+column,dtype,nulls,distinct
+transaction_id,int64,0,100000
+transaction_date,object,0,1004
+branch,object,0,8
+category,object,0,6
+product_name,object,0,30
+quantity,int64,0,10
+unit_price,float64,0,349
+discount_rate,float64,0,5
+gross_sales,float64,0,1771
+net_sales,float64,0,6097
+payment_method,object,0,4
+customer_segment,object,0,3

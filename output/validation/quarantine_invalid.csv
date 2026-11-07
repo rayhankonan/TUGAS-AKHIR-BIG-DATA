@@ -1,0 +1,1 @@
+transaction_id,transaction_date,branch,category,product_name,quantity,unit_price,discount_rate,gross_sales,net_sales,payment_method,customer_segment,_source_integer_format,calculated_gross_sales,calculated_net_sales,discount_amount,month,basket_band

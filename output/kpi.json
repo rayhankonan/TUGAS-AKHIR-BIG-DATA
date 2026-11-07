@@ -1,0 +1,10 @@
+{
+  "transactions": 100000,
+  "units_sold": 551507,
+  "gross_sales": 58074226000.0,
+  "net_sales": 54856691900.0,
+  "discount_amount": 3217534100.0,
+  "average_transaction": 548566.919,
+  "date_min": "2024-01-01",
+  "date_max": "2026-09-30"
+}
